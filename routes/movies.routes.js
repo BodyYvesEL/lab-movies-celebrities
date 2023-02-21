@@ -1,4 +1,6 @@
+
 const router = require("express").Router();
+
 const Movie = require("../models/Movie.model");
 const Celebrity = require("../models/Celebrity.model");
 
@@ -44,3 +46,5 @@ router.get("/movies/:movieId", async (req, res, next) => {
   });
   
   module.exports = router;
+
+

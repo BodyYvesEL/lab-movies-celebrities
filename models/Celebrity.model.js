@@ -16,6 +16,7 @@ module.exports = Celebrity;
 */
 
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 const celebritySchema = new mongoose.Schema({
     name: { type: String, required: true },
